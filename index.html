@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Snippet Library</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.4.1/themes/prism.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.4.1/prism.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Car Form</h1>
+
+    <form action="results.html">
+      <label for="carName">Car Name</label>
+      <input
+        name="carName"
+        type="text"
+        placeholder="carName"
+        id="carName"
+        required
+      />
+      <label for="company">Company Name</label>
+      <input
+        name="company"
+        type="text"
+        placeholder="company"
+        id="company"
+        required
+      />
+      <label for="owner">Owner Name</label>
+      <input name="owner" type="text" placeholder="owner" id="owner" />
+      <label for="date">Date Purchased</label>
+      <input name="date_purchased" type="date" id="date" />
+      <label for="maxspeed">Max Speed</label>
+      <input
+        name="maxSpeed"
+        type="number"
+        min="0"
+        max="1000"
+        step="10"
+        placeholder="maxSpeed"
+        id="maxspeed"
+        required
+      />
+      <input type="submit" name="Submit" />
+    </form>
+
+    <!-- if you need to show copy-pastable code, you can use the following-->
+    <!--<pre><code class="language-html"><input type=""></code></pre>-->
+  </body>
+  <script>
+    document.querySelectorAll("pre code").forEach((el) => {
+      el.textContent = el.innerHTML;
+    });
+  </script>
+</html>
