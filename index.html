@@ -17,7 +17,7 @@
     <form action="results.html">
       <label for="carName">Car Name</label>
       <input
-        name="carName"
+        name="name"
         type="text"
         placeholder="carName"
         id="carName"
@@ -37,24 +37,18 @@
       <input name="date_purchased" type="date" id="date" />
       <label for="maxspeed">Max Speed</label>
       <input
-        name="maxSpeed"
+        name="maxspeed"
         type="number"
         min="0"
         max="1000"
-        step="10"
         placeholder="maxSpeed"
         id="maxspeed"
         required
       />
+      <label for="car_img">Upload car's image</label>
+      <input type="file" name="image" id="car_img" />
       <input type="submit" name="Submit" />
     </form>
-
-    <!-- if you need to show copy-pastable code, you can use the following-->
-    <!--<pre><code class="language-html"><input type=""></code></pre>-->
   </body>
-  <script>
-    document.querySelectorAll("pre code").forEach((el) => {
-      el.textContent = el.innerHTML;
-    });
-  </script>
+  <script src="main.js"></script>
 </html>

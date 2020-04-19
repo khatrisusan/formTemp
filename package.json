@@ -1,0 +1,23 @@
+{
+  "name": "form_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khatrisusan/formTemp.git"
+  },
+  "author": "susan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khatrisusan/formTemp/issues"
+  },
+  "homepage": "https://github.com/khatrisusan/formTemp#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "save-dev": "0.0.1-security"
+  }
+}
